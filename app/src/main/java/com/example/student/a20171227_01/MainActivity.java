@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         EditText ed1,ed2;
         ed1=(EditText)findViewById(R.id.editText);
         ed2=(EditText)findViewById(R.id.editText2);
-        int q1=Integer.valueOf(ed1.getText().toString());
+        int q1=Integer.valueOf(ed1.getText().toString()); //測試
         int q2=Integer.valueOf(ed2.getText().toString());
         int ans=q1+q2;
         TextView tv2=(TextView)findViewById(R.id.textView2);
